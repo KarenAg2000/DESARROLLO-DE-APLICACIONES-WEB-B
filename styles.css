@@ -1,0 +1,26 @@
+/* styles.css */
+
+body {
+    background-color: #c8a2c8; 
+}
+
+.btn-primary {
+    background-color: #ff5733; 
+    border-color: #ff5733;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #e14a29;
+    border-color: #e14a29;
+}
+
+header h1 {
+    color: #140e14; 
+}
+
+@media (max-width: 576px) {
+    body {
+        background-color: #b37eb2;
+    }
+}
