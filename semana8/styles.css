@@ -1,0 +1,13 @@
+/* Estilo personalizado */
+body {
+  background-color: #f5e6ff;
+}
+
+footer {
+  background-color: #e0c7ff;
+}
+
+button.btn-primary {
+  background-color: #6f42c1;
+  border: none;
+}
