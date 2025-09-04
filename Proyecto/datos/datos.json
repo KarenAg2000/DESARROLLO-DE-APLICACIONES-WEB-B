@@ -1,0 +1,44 @@
+[
+    {
+        "id": "G001",
+        "nombre": "Google Pixel 4",
+        "cantidad": 10,
+        "precio": 60.0,
+        "imagen": "Google Pixel 4.jpg"
+    },
+    {
+        "id": "G002",
+        "nombre": "Google Pixel 6 Pro",
+        "cantidad": 5,
+        "precio": 95.0,
+        "imagen": "Google Pixel 6 Pro.jpg"
+    },
+    {
+        "id": "G003",
+        "nombre": "Google Pixel 6",
+        "cantidad": 7,
+        "precio": 100.0,
+        "imagen": "Google Pixel 6.jpg"
+    },
+    {
+        "id": "G004",
+        "nombre": "Google Pixel 7 Pro",
+        "cantidad": 4,
+        "precio": 95.0,
+        "imagen": "Google Pixel 7 Pro.jpg"
+    },
+    {
+        "id": "H001",
+        "nombre": "Honor 10 Lite",
+        "cantidad": 8,
+        "precio": 40.0,
+        "imagen": "Honor 10 Lite.jpg"
+    },
+    {
+        "id": "H002",
+        "nombre": "Honor 200 Lite",
+        "cantidad": 6,
+        "precio": 65.0,
+        "imagen": "Honor 200 Lite.jpg"
+    }
+]

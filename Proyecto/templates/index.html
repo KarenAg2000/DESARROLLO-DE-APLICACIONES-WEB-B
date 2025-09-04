@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block title %}Inventario{% endblock %}
+
+{% block content %}
+<div class="row">
+    {% for producto in productos %}
+    <div class="col-md-3 col-sm-6 mb-4">
+        <div class="card h-100 shadow-sm">
+            <img src="{{ url_for('static', filename='img/' + producto.imagen) }}" class="card-img-top" alt="{{ producto.nombre }}">
+            <div class="card-body text-center">
+                <h5 class="card-title">{{ producto.nombre }}</h5>
+                <p class="card-text">ID: {{ producto.id }}</p>
+                <p class="card-text text-success fw-bold">${{ "{:.2f}".format(producto.precio) }}</p>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}
